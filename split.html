@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Expense Tracker - Split</title>
+    <style src="split.css"></style>
+</head>
+<body>
+
+<div id="div1">
+<center>
+
+    <div class="app-container">
+        <h3>Split Expenses</h3>
+
+ 
+        <div id="money-split-section">
+            <h4>Money Split Between Members</h4>
+            <input type="number" id="total-amount-split" placeholder="Total Amount">
+            <input type="number" id="number-of-members-split" placeholder="Number of Members">
+            <button id="split-calculate-btn">Calculate</button>
+            <p id="split-result"></p>
+        </div>
+
+
+        <div id="borrowed-section">
+            <h4>Borrowed Amounts</h4>
+            <div id="borrowed-container"></div>
+            <button id="add-borrowed-btn">Add Borrowed Amount</button>
+        </div>
+
+ 
+        <div id="payable-section">
+            <h4>Payable Amounts</h4>
+            <div id="payable-container"></div>
+            <button id="add-payable-btn">Add Payable Amount</button>
+        </div>
+
+        
+        <div id="calculation-section">
+            <button id="calculate-btn">Calculate</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <button type="submit" id="back" style="background-color:rgb(245, 245, 249)" ><a href="index.html" style="color:rgb(81, 164, 209)">Back to transaction</a></button>
+
+    <script src="split.js"></script>
+    </center>
+</div>  
+</body>
+</html>
